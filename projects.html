@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Wout Belmans | Cloud & Cybersecurity Student</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.png">
+</head>
+
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/logo-dark.png" alt="logo" height="40px" width="auto">
+                    <span class="fw-bolder text-primary" style="visibility: hidden;">Wout Belmans</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects & Achievements</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Projects Section-->
+        <section class="py-5">
+            <div class="container px-5 mb-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5 col-md-8 col-sm-12">
+                                        <h2 class="fw-bolder">Project Hosting</h2>
+                                        <p>In the second semester of the <strong>Skills Integration Lab</strong> course,
+                                            our team was assigned to host a real client's application using our own
+                                            infrastructure. The goal was to provide a secure, scalable environment for
+                                            web deployment and continuous updates.
+                                            <br><br>
+                                            We set up a Kubernetes cluster to manage deployments and applied several CIS
+                                            security controls. I was primarily responsible for configuring the
+                                            Kubernetes cluster for high availability and proper container orchestration.
+                                            I also worked on automating deployments through GitHub and implementing
+                                            security features like network segmentation and access control.
+                                            <br><br>
+                                            This project gave me hands-on experience with container orchestration,
+                                            infrastructure security, and DevOps practices. It taught me how to think
+                                            holistically about availability, maintainability, and client usability in
+                                            hosting environments.
+                                        </p>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Kubernetes</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Docker</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">FastAPI</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">HTML/CSS</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">PfSense</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">VMware</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">CIS Controls</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md d-none d-lg-block">
+                                        <img class="img-fluid" src="assets/project-wooosh.png"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5 col-md-8 col-sm-12">
+                                        <h2 class="fw-bolder">Containerized App in the Cloud using IaC</h2>
+                                        <p>For the <strong>Cloud Platforms</strong> course, I completed a solo project
+                                            focused on deploying a containerized web application to Azure using
+                                            Infrastructure as Code. The goal was to gain hands-on experience with
+                                            real-world cloud deployment techniques, security, and automation.
+                                            <br><br>
+                                            I designed and implemented the entire infrastructure using Bicep templates.
+                                            This included setting up two Azure Container Instances inside a secured
+                                            virtual network, pulling container images from a private Azure Container
+                                            Registry, and configuring secure registry access with authentication tokens.
+                                            I also troubleshooted issues around private networking and image pulling.
+                                            <br><br>
+                                            This project taught me how to translate infrastructure requirements into
+                                            code, deploy and manage container-based workloads in Azure, and apply cloud
+                                            security best practices in a production-like environment.
+                                        </p>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Azure</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Docker</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Bicep</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">GitHub</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Azure CLI</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md d-none d-lg-block">
+                                        <img class="img-fluid" src="assets/project-azure.png"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5 col-md-8 col-sm-12">
+                                        <h2 class="fw-bolder">Locker System Proof of Concept</h2>
+                                        <p>For the <strong>Skills Integration Lab</strong> course, we were tasked with
+                                            developing a Proof of Concept for a smart locker system. The client, who
+                                            owns a small webshop, needed a solution that allowed customers to pick up
+                                            orders securely without requiring someone to be home.
+                                            <br><br>
+                                            Together with my team, we built a working prototype consisting of a
+                                            connected smart locker and an admin dashboard. I was primarily responsible
+                                            for designing and developing the dashboard interface and implementing some key
+                                            features.
+                                            <br><br>
+                                            This project helped me understand how to combine hardware and software, how
+                                            to communicate with microcontrollers from a web app, and how to design
+                                            user-friendly, security-aware applications that interact with physical
+                                            devices.
+                                        </p>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">HTML/CSS</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">JavaScript</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Python</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Bootstrap</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">FastAPI</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">OrangePi</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md d-none d-lg-block">
+                                        <img class="img-fluid" src="assets/project-locker.png"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mt-5 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5 col-md-8 col-sm-12">
+                                        <h2 class="fw-bolder">Interactive History Learning App</h2>
+                                        <p>For the <strong>Professional Skills 1</strong> course during my first year,
+                                            we worked in a group to develop an interactive learning platform to make the
+                                            subject of History more engaging for students. The challenge was to create a
+                                            playful experience that motivates users to explore historical content.
+                                            <br><br>
+                                            We built a digital escape room where users solve quizzes and puzzles to
+                                            unlock new historical periods. I contributed by designing and implementing
+                                            the backend logic for validating codes and managing level progression. I
+                                            also helped design user interaction flows to make the game intuitive and
+                                            rewarding.
+                                            <br><br>
+                                            This project taught me how to turn educational goals into a digital
+                                            experience, how to balance fun with structure, and how to collaborate
+                                            effectively in a team on a multidisciplinary concept.
+                                        </p>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">HTML/CSS</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">JavaScript</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">MySQL</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md d-none d-lg-block">
+                                        <img class="img-fluid" src="assets/project-historyquest.png"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overflow-hidden shadow rounded-4 border-0">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5 col-md-8 col-sm-12">
+                                        <h2 class="fw-bolder">B-fresh Website Development</h2>
+                                        <p>This was a self-initiated project for B-fresh, a student
+                                            startup from PXL's International Business program. Their mission is to offer
+                                            eco-friendly cleaning tablets in a fun and simple way, and they needed a
+                                            professional website to tell their story.
+                                            <br><br>
+                                            I managed the entire process — from sketching the layout and selecting
+                                            tools, to building the site in Webflow, making it responsive for all
+                                            devices, and aligning the design with their brand identity. I maintained
+                                            regular feedback loops with the founders to ensure their sustainability
+                                            message came through clearly.
+                                            <br><br>
+                                            Through this experience, I improved my frontend development and UX/UI design
+                                            skills and learned how to translate a client's vision into a working
+                                            product. It also strengthened my ability to work independently and
+                                            communicate professionally with non-technical stakeholders.
+                                        </p>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">HTML/CSS</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Webflow</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Adobe Photoshop</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md d-none d-lg-block">
+                                        <img class="img-fluid" src="assets/project-bfresh.png"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Achievements Section-->
+        <section class="py-5">
+            <div class="container px-5 mb-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Achievements</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- Project Card 1-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5 col-md-8 col-sm-12">
+                                        <h2 class="fw-bolder">LPI Linux Essentials Certificate</h2>
+                                        <p>In my first year, I earned the LPI Linux Essentials certificate, validating
+                                            my foundational knowledge of Linux systems, command-line usage, and
+                                            open-source concepts. This certification strengthened my understanding of
+                                            one of the most important operating systems in IT and cybersecurity
+                                            environments.</p>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Linux Command Line</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">System Management</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md d-none d-lg-block">
+                                        <img class="img-fluid" src="assets/achievement-1.png"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project Card 2-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5 col-md-8 col-sm-12">
+                                        <h2 class="fw-bolder">CCNA: Switching, Routing, and Wireless Essentials (Credly
+                                            Badge)</h2>
+                                        <p>During my second year, I successfully completed the "Switching, Routing,
+                                            and Wireless Essentials" exam, part of the CCNA certification track. This
+                                            achievement shows my skills in managing small to medium-sized networks,
+                                            configuring routers and switches, and understanding wireless networking
+                                            basics.</p>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Networking Principles</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Routing and Switching</div>
+                                        </div>
+                                        <div class="badge bg-gradient-primary-to-secondary text-white mb-1">
+                                            <div class="text-uppercase">Wireless Networking</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md d-none d-lg-block">
+                                        <img class="img-fluid" src="assets/achievement-2.png"
+                                            alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to action section-->
+        <section class="py-5 bg-gradient-primary-to-secondary text-white">
+            <div class="container px-5 my-5">
+                <div class="text-center">
+                    <h2 class="display-4 fw-bolder mb-4">Want to collaborate?</h2>
+                    <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
+                        href="mailto:me@woutbelmans.com">Contact me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <a class="small" href="https://www.woutbelmans.com">www.woutbelmans.com</a>
+                </div>
+                <div class="col-auto">
+                    <a class="small" href="#!" style="display: none;">Privacy</a>
+                    <span class="mx-1" style="display: none;">&middot;</span>
+                    <a class="small" href="#!" style="display: none;">Terms</a>
+                    <span class="mx-1" style="display: none;">&middot;</span>
+                    <a class="small" href="mailto:me@woutbelmans.com">me@woutbelmans.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
